@@ -20,6 +20,3 @@ public class SumOfElement {
         sumOfElement(arr);
     }
 }
-/*
-    
- */
