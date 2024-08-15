@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 public class SumOfElement {
     public static void sumOfElement(int arr[]){
