@@ -8,7 +8,6 @@ public class SumOfElement {
         }
         System.out.println("Sum of elements are : "+ sum);
     }
-
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter array size");
@@ -21,4 +20,6 @@ public class SumOfElement {
         sumOfElement(arr);
     }
 }
+/*
 
+ */
