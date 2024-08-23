@@ -1,4 +1,4 @@
-
+// Find largest element in the given array
 import java.util.Scanner;
 public class LargestElement {
     public static int largestElement(int arr[]){

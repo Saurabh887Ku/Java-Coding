@@ -1,3 +1,4 @@
+// Reverse the given string 
 import java.util.Scanner;
 public class ReverseString {
     public static String reverseString(String str){

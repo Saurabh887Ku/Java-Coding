@@ -1,3 +1,4 @@
+// Count index bits of the array elements
 import java.util.Scanner;
 public class ArrayIndexBits {
     public static int getBits(int num){

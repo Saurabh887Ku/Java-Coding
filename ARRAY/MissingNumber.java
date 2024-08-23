@@ -1,4 +1,4 @@
-
+// Find missing number in array element
 import java.util.Scanner;
 public class MissingNumber {
 
