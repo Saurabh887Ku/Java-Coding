@@ -1,3 +1,4 @@
+//  Find the smallest elements of the given array.
 import java.util.Scanner;
 public class SmallestElement{
     public static int smallestElementOfArray(int [] arr){
