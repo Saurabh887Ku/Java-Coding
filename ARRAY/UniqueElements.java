@@ -1,3 +1,4 @@
+// Print all the unique elements in array
 import java.util.Scanner;
 public class UniqueElements{
     public static void printUniqueElement(int[] arr){
