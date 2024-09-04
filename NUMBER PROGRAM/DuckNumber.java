@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 public class DuckNumber {
     public static boolean isDuckNumber(int num){
