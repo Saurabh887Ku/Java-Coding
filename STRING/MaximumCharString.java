@@ -1,9 +1,8 @@
 // Find maximum character occurs in given string.
 import java.util.Scanner;
 public class MaximumCharString{
-    
     public static void maxiStringOccur(String str){
-        int arr[] = new int[256];
+        int[] arr = new int[256];
         int count = 0;
         char ch1 = ' ';
         for(int i=0; i<str.length(); i++){

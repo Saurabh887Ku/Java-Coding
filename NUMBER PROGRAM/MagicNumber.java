@@ -1,4 +1,4 @@
-
+// Check the given number is magic number or not
 import java.util.Scanner;
 public class MagicNumber {
     public static int magicNumber(int num){
@@ -10,6 +10,7 @@ public class MagicNumber {
         }
         return sum;
     }
+
     public static boolean isMagicNumber(int num){
         while(num != 1 && num > 9){
             num=magicNumber(num);
