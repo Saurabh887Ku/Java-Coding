@@ -8,6 +8,7 @@ public class Bank {
         Account account = new Account();
         account.setAccountNumber("199330134462");
         account.setDetails("Saurabh Kumar");
+        account.getDetails();
         System.out.println("Do you want to deposit money or withdraw money");
         System.out.println("d means deposit");
         System.out.println("w means withdraw");
@@ -20,7 +21,6 @@ public class Bank {
             account.withdrawMoney(10000);
             System.out.println(account.getMoney());
         }
-        account.getDetails();
     }
 }
 
