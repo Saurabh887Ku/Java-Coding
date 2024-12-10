@@ -1,28 +1,27 @@
-// Print all the unique elements in array
 import java.util.Scanner;
-public class UniqueElements{
-    public static void printUniqueElement(int[] arr){
-        int freq[] = new int[arr.length];
-        for(int i=0; i<freq.length; i++){
-            freq[i] = -1;
-        }   
-        int count=0;
+
+public class Frequency {
+    public static void frequencyOfEachElement(int[] arr){
+        int[] freq = new int[arr.length];
         for(int i=0; i<arr.length; i++){
-            count=1;
+            freq[i] = -1;
+        }
+        for(int i=0; i<arr.length; i++){
+            int count=1;
             for(int j=i+1; j<arr.length; j++){
                 if(arr[i] == arr[j]){
                     count++;
-                    freq[j] = 0;
+                    freq[j]=0;
                 }
             }
             if(freq[i] != 0){
-                freq[i] = count;
+                freq[i]=count;
             }
         }
-        System.out.println("Unique Elements");
         for(int i=0; i<arr.length; i++){
-            if(freq[i] == 1)
-                System.out.print(arr[i]+" ");
+            if(freq[i] >= 1){
+                System.out.println(arr[i]+" "+freq[i]);
+            }
         }
     }
     public static void main(String[] Saurabh){
@@ -34,6 +33,6 @@ public class UniqueElements{
         for(int i=0; i<size; i++){
             arr[i] = sc.nextInt();
         }
-        printUniqueElement(arr);
+        frequencyOfEachElement(arr);
     }
 }

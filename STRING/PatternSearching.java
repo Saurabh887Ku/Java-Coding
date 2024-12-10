@@ -7,6 +7,7 @@ public class PatternSearching{
             pos = str.indexOf(pattern, pos+1);
         }
     }
+    
     public static void main(String[] Saurabh){
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter a string");
