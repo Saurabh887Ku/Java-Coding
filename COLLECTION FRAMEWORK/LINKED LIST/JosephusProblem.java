@@ -7,10 +7,10 @@ public class JosephusProblem {
         for(int i=0; i<num; i++){
             list.add(i);
         }
-        int index = 0;
+        int count = 0;
         while(list.size() != 1){
-            index = (index + k-1) % list.size();
-            list.remove(index);
+            count = (count + k-1) % list.size();
+            list.remove(count);
         }
         System.out.println(list.get(0));
     }
